@@ -1,0 +1,5 @@
+supabase
+fastapi
+nltk
+pyrebase
+firebase_admin
