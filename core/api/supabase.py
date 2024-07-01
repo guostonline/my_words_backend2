@@ -60,7 +60,8 @@ class MySupabase:
     
     def set_user_info(self,client:Client):
         result=self.supabase.table("users").insert({
-             'user_id': client.user_id,
+            
+            'user_id': client.user_id,
             'user_name': client.user_name,
             'email': client.email,
             'number_phone': client.number_phone,
